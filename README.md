@@ -12,11 +12,13 @@ cd git-workshop      # Changes the current directory to 'git-workshop'
 2. Initialize a Git Repository: - What command initializes a Git repository in your directory?
 
 git init
+
 3. Create and Modify Files: - How do you create a new file named `hello.txt` and add the content 'Hello, Git
 echo "Hello, Git" > hello.txt
 
-git status
-. 4. Check the Status of Your Repository: - What command displays the status of your repository?
+git status.
+
+4. Check the Status of Your Repository: - What command displays the status of your repository?
 git status
 This command shows information about the current state of the repository, including any files that are staged, unstaged, or untracked.
 
