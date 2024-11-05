@@ -3,6 +3,7 @@ NAME:  YAMUNA RANI S
 REGISTER NUMBER :  212223060309
 DEPARTMENT :  ECE
 YEAR :  SECOND YEAR
+
 1. Setup and Initialize: - What command do you use to create a new directory named `git-workshop and navigate into it?
 
 mkdir git-workshop   # Creates a new directory called 'git-workshop'
@@ -17,9 +18,10 @@ echo "Hello, Git" > hello.txt
 git status
 . 4. Check the Status of Your Repository: - What command displays the status of your repository?
 git status
-
 This command shows information about the current state of the repository, including any files that are staged, unstaged, or untracked.
+
 5. Stage and Commit Changes: - What command stages the file `hello.txt`? - What command commits the staged file with the message 'Add hello.txt with welcome message'?
+   
 To stage the file hello.txt, use the following command:
 git add hello.txt
 To commit the staged file with the message "Add hello.txt with welcome message", use the following command:
@@ -78,8 +80,8 @@ git reset --hard abc123
 This command will reset your branch to the specified commit, discarding all changes made after that commit. Be cautious when using --hard as it will permanently delete any uncommitted changes. If you want to keep your changes in the working directory, you can use:
 
 git reset --soft abc123
-
 This will keep your changes staged for commit.
+
 11. Push to a Remote Repository (Optional): - What command adds a remote repository named `origin`? - What command pushes your local `main` branch to the remote repository?
 To add a remote repository named origin, you can use the following command, replacing URL with the actual URL of your remote repository:
 git remote add origin URL
